@@ -1,6 +1,6 @@
 function ClozeCard(fulltext, cloze) {
     this.cloze = cloze,
-    // this.partial = partial.replace(cloze, " ... "),
+    this.partial = fulltext.replace(cloze, " ... "),
     this.fulltext = fulltext
 };
 
