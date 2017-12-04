@@ -1,5 +1,5 @@
 
-var ClozeCard = require("./closecard.js")
+var ClozeCard = require("./clozecard.js")
 
 function BasicCard(front, back) {
     this.front = front,
