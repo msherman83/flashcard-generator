@@ -8,3 +8,7 @@ function ClozeCard(fulltext, cloze) {
 
 
 module.exports = ClozeCard;
+
+
+
+

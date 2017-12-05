@@ -1,0 +1,22 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "a program for generating flashcards",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msherman83/flashcard-generator.git"
+  },
+  "author": "Mike Sherman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msherman83/flashcard-generator/issues"
+  },
+  "homepage": "https://github.com/msherman83/flashcard-generator#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1"
+  }
+}
