@@ -1,13 +1,17 @@
-// Create card constructor
-// Asks questions 
+
+
+// TODO
 // Outputs to a log file the text and word to be replaced. 
 // Random card generator
+// Tie into app.js
+
+// Add a multiple choice menu to see what they would like to do.
+  // create a card
+  // list cards
+  // study (maybe?)
 
 var inquirer = require('inquirer');
 
-function CardCreator() {
-
-};
 
 
 
