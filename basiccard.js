@@ -1,12 +1,13 @@
 var inquirer = require('inquirer');
-
-
 var ClozeCard = require("./clozecard.js")
+var fs = require("fs");
+
 
 function BasicCard(front, back) {
     this.front = front,
         this.back = back
 };
+
 
 
 // Prompt to create a Basic Card.
@@ -44,7 +45,16 @@ function creatBasicCard() {
                 flashcardFront = inquirerResponse.flashcardFront
                 flashcardBack = inquirerResponse.flashcardBack
 
-                console.log(flashcardFront + " , " + flashcardBack)
+                console.log("Question: " + flashcardFront + " Answer: " + flashcardBack)
+
+                // Add the basic card created to basicCard.txt
+                fs.appendFile("./basicCard.txt", "\nQuestion: " + flashcardFront + " Answer: " + flashcardBack, function(error) {
+                    if (error) {
+                        console.log("Something went horribly wrong...");
+                    } return console.log(error);
+
+                })
+
             }
             else {
                 console.log("its broke...");

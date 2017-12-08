@@ -1,0 +1,4 @@
+
+Full Text: I like to eat pizza. Cloze: pizza
+Full Text: who is your daddy and what does he do? Cloze: daddy
+Full Text: Castlevania is my favorite gaming franchise ever. Cloze: Castlevania

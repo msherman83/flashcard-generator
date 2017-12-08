@@ -1,4 +1,5 @@
 var inquirer = require('inquirer');
+var fs = require("fs");
 
 function ClozeCard(fulltext, cloze) {
     this.cloze = cloze,
@@ -42,7 +43,14 @@ function creatClozeCard() {
                 fulltext = inquirerResponse.fulltext
                 cloze = inquirerResponse.cloze
 
-                console.log(fulltext + " , " + cloze)
+                console.log("Full Text: " + fulltext + " Cloze: " + cloze)
+
+                // Add the cloze card created to clozeCard.txt
+                fs.appendFile("./clozeCard.txt", "\nFull Text: " + fulltext + " Cloze: " + cloze, function(error) {
+                    if (error) {
+                        console.log("Something went horribly wrong...");
+                    } return console.log(error);
+                })
             }
             else {
                 console.log("its broke...");
