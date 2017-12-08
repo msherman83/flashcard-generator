@@ -27,7 +27,7 @@ function chooseACard() {
             {
                 type: 'list',
                 name: 'chooseCard',
-                message: 'Choose your destiny young warrior!',
+                message: "Welcome to the Flash Card Creator 5000!\n =======================================\n\n Choose your destiny young warrior!\n",
                 choices: [
                     "Basic",
                     "Cloze",
