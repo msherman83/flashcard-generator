@@ -8,6 +8,7 @@ Generate flashcards for studying.
 ### How To Use
 1. Type: node app.js while in the ./flashcard-generator directory.
 2. Choose an option to either create a card or list the cards already created.
+3. Follow the on-screen prompts
 
 
 ## Technologies Used
