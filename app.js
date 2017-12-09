@@ -1,12 +1,4 @@
-// TODO
-// * Outputs to a log file the text and word to be replaced. 
-// Random card generator
-// * Tie into app.js
 
-// Add a multiple choice menu to see what they would like to do.
-  // * create a card
-  // * list cards
-  // study (maybe?)
 
   // WEIRDNESS
     // appendFile is outputting NULL after being run.  No error messages and its still appending to the file correctly.
@@ -60,34 +52,3 @@ function chooseACard() {
 
 chooseACard();
 
-
-
-// DONT NEED ===============================================
-
-// // BASICCARD
-
-// var firstPresident = new BasicCard("Who was the first president of the United States?", "George Washington");
-
-// // "Who was the first president of the United States?"
-// console.log(firstPresident.front);
-
-// // "George Washington"
-// console.log(firstPresident.back);
-
-
-
-// // CLOSECARD
-
-// var firstPresidentCloze = new ClozeCard("George Washington was the first president of the United States.", "George Washington");
-
-// // "George Washington"
-// console.log(firstPresidentCloze.cloze);
-
-// // " ... was the first president of the United States.
-// console.log(firstPresidentCloze.partial);
-
-// // "George Washington was the first president of the United States.
-// console.log(firstPresidentCloze.fulltext);
-
-// // Should throw or log an error because "oops" doesn't appear in "This doesn't work"
-// var brokenCloze = new ClozeCard("This doesn't work", "oops");
